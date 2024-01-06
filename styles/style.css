@@ -5,26 +5,31 @@
 /* universal style */
 
 body {
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
 }
 
-main{
-    padding: 0 230px;
+main {
+	padding: 0 230px;
 }
 
 /* common style */
 
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
 }
 
 .theme-primary-color {
-    color: #FD6E0A;
+	color: #FD6E0A;
 }
 
 
@@ -36,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 20px;
 	font-weight: 700;
 	padding: 15px 35px;
-    cursor: pointer;
+	cursor: pointer;
 }
 
 .primary-btn svg {
@@ -67,26 +72,26 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .site-tittle {
-    color: #181818;
-    font-family: Open Sans;
-    font-size: 45px;
-    font-weight: 800;
+	color: #181818;
+	font-family: Open Sans;
+	font-size: 45px;
+	font-weight: 800;
 }
 
 .header-section ul {
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .header-section ul li {
-    list-style: none;
-    margin-left: 25px;
+	list-style: none;
+	margin-left: 25px;
 }
 
 .header-section ul li a {
-    color: #474747;
-    font-size: 20px;
-    font-weight: 400;
+	color: #474747;
+	font-size: 20px;
+	font-weight: 400;
 }
 
 
@@ -94,11 +99,11 @@ h1, h2, h3, h4, h5, h6 {
 /* banner area style */
 
 .banner-area {
-    padding-left: 230px;
-    padding-right: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+	padding-left: 230px;
+	padding-right: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .banner-content-tittle {
@@ -114,11 +119,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .banner-desc {
-	color:#757575;
+	color: #757575;
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 30px;
-    margin-bottom: 25px;
+	margin-bottom: 25px;
 }
 
 .banner-btn a {
@@ -142,12 +147,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .banner-thumb {
-    position: relative;
-    z-index: 111;
+	position: relative;
+	z-index: 111;
 }
 
 .banner-thumb img {
-    width: 100%;
+	width: 100%;
 }
 
 .man-back-bg {
@@ -167,7 +172,7 @@ h1, h2, h3, h4, h5, h6 {
 .about-section {
 	border-radius: 10px;
 	background: #FFF8F3;
-    margin: 130px 0;
+	margin: 130px 0;
 	padding: 130px;
 }
 
@@ -181,7 +186,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .about-details-box {
 	display: flex;
-    justify-content: space-around;
+	justify-content: space-around;
 }
 
 .about-tittle {
@@ -200,6 +205,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* what i do section */
+
+.what-i-do-section {
+	margin-bottom: 130px;
+}
 
 .what-i-do-desc {
 	color: #757575;
@@ -238,3 +247,92 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
 	line-height: 28px;
 }
+
+/* resume section style */
+
+.resume-column-tittle {
+	color: #474747;
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 25px;
+}
+
+.resume-wrapper-tittle {
+	color:#474747;
+	font-size: 25px;
+	font-weight: 700;
+}
+
+.resume-sub-tittle {
+	color: #757575;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.resume-description {
+	color: #757575;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+}
+
+.resume-column hr {
+	background: #D1D1D1;
+}
+
+/* footer section style */
+
+.footer-section {
+	background: #FFF8F3;
+	display: flex;
+	padding: 130px 230px;
+	justify-content: space-around;
+}
+
+.footer-description {
+	width: 50%;
+}
+
+.footer-sec-tittle {
+	color: #181818;
+	font-size: 35px;
+	font-weight: 700;
+	display: inline-block;
+	margin-bottom: 25px;
+}
+
+.footer-desc-text {
+	color: #474747;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+}
+
+.footer-contact-form {
+	width: 50%;
+}
+
+.footer-form input {
+	max-height: 65px;
+	border-radius: 5px;
+	background: #FFF;
+	border: 0;
+	padding: 18px 30px;
+	margin-bottom: 25px;
+	width: 460px;
+}
+
+.footer-form textarea {
+	border-radius: 5px;
+	background: #FFF;
+	border: 0;
+	width: 100%;
+	padding: 15px 30px;
+	margin-bottom: 25px;
+	width: 460px;
+}
+
+.footer-social-link a {
+	margin-right: 25px;
+}
+
