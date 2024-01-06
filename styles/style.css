@@ -2,12 +2,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
 
+/* universal style */
 
-/* common style */
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+
+main{
+    padding: 0 230px;
+}
+
+/* common style */
 
 a {
     text-decoration: none;
@@ -42,6 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .header-section {
 	background: #FFF8F3;
+	position: relative;
 }
 
 /* nav style */
@@ -84,6 +91,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-right: 40px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .banner-content-tittle {
@@ -124,4 +132,32 @@ h1, h2, h3, h4, h5, h6 {
 .banner-trans-btn svg {
 	margin-bottom: -5px;
 	margin-right: 5px;
+}
+
+.banner-thumb {
+    position: relative;
+    z-index: 111;
+}
+
+.banner-thumb img {
+    width: 100%;
+}
+
+.man-back-bg {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.side-bg {
+	position: absolute;
+	left: 40px;
+	top: 0;
+}
+
+/* about section style */
+
+.about-section {
+	border-radius: 10px;
+	background: #FFF8F3;
 }
