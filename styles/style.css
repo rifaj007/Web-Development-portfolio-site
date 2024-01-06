@@ -42,6 +42,7 @@ h6 {
 	font-weight: 700;
 	padding: 15px 35px;
 	cursor: pointer;
+	display: inline-block;
 }
 
 .primary-btn svg {
@@ -278,6 +279,24 @@ h6 {
 
 .resume-column hr {
 	background: #D1D1D1;
+	width: 95%;
+}
+
+.resume-column-box {
+	display: flex;
+	margin-top: 115px;
+}
+
+.resume-section {
+	padding-bottom: 115px;
+}
+
+.resume-btn {
+	margin-top: 25px;
+}
+
+.resume-btn {
+	text-align: center;
 }
 
 /* footer section style */
